@@ -1,0 +1,32 @@
+[0.069s] Invoking command in '/home/intern/ros2Humble_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /home/intern/.local/bin/cmake --build /home/intern/ros2Humble_ws/build/apriltag_ros -- -j4 -l4
+[0.394s] [ 20%] Built target tags
+[0.472s] [ 60%] Built target apriltag_node
+[0.611s] [100%] Built target AprilTagNode
+[0.668s] Invoked command in '/home/intern/ros2Humble_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/intern/.local/bin/cmake --build /home/intern/ros2Humble_ws/build/apriltag_ros -- -j4 -l4
+[1.154s] Invoking command in '/home/intern/ros2Humble_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /home/intern/.local/bin/cmake --install /home/intern/ros2Humble_ws/build/apriltag_ros
+[1.284s] -- Install configuration: ""
+[1.286s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_node
+[1.287s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh
+[1.287s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv
+[1.292s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/lib/libAprilTagNode.so
+[1.297s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/cfg
+[1.298s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11.yaml
+[1.298s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/launch
+[1.298s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/launch/v4l2_36h11.launch.yml
+[1.298s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros
+[1.299s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros
+[1.299s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh
+[1.300s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv
+[1.300s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/environment/path.sh
+[1.301s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/environment/path.dsv
+[1.301s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/local_setup.bash
+[1.303s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/local_setup.sh
+[1.303s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/local_setup.zsh
+[1.304s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/local_setup.dsv
+[1.304s] -- Installing: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/package.dsv
+[1.310s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros
+[1.310s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros
+[1.312s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake
+[1.316s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake
+[1.317s] -- Up-to-date: /home/intern/ros2Humble_ws/install/apriltag_ros/share/apriltag_ros/package.xml
+[1.331s] Invoked command in '/home/intern/ros2Humble_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/intern/.local/bin/cmake --install /home/intern/ros2Humble_ws/build/apriltag_ros

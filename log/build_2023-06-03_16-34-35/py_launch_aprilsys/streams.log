@@ -1,0 +1,47 @@
+[1.406s] Invoking command in '/home/intern/ros2Humble_ws/src/py_launch_aprilsys': PYTHONPATH=/home/intern/ros2Humble_ws/build/py_launch_aprilsys/prefix_override:/home/intern/ros2Humble_ws/install/py_launch_aprilsys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_aprilsys build --build-base /home/intern/ros2Humble_ws/build/py_launch_aprilsys/build install --record /home/intern/ros2Humble_ws/build/py_launch_aprilsys/install.log --single-version-externally-managed
+[1.857s] running egg_info
+[1.857s] creating ../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info
+[1.873s] writing ../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info/PKG-INFO
+[1.873s] writing dependency_links to ../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info/dependency_links.txt
+[1.874s] writing requirements to ../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info/requires.txt
+[1.874s] writing top-level names to ../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info/top_level.txt
+[1.874s] writing manifest file '../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info/SOURCES.txt'
+[1.911s] reading manifest file '../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info/SOURCES.txt'
+[1.912s] writing manifest file '../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info/SOURCES.txt'
+[1.912s] running build
+[1.913s] running build_py
+[1.913s] creating /home/intern/ros2Humble_ws/build/py_launch_aprilsys/build
+[1.913s] creating /home/intern/ros2Humble_ws/build/py_launch_aprilsys/build/lib
+[1.913s] creating /home/intern/ros2Humble_ws/build/py_launch_aprilsys/build/lib/py_launch_aprilsys
+[1.914s] copying py_launch_aprilsys/__init__.py -> /home/intern/ros2Humble_ws/build/py_launch_aprilsys/build/lib/py_launch_aprilsys
+[1.914s] running install
+[1.915s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.916s] !!
+[1.916s] 
+[1.916s]         ********************************************************************************
+[1.917s]         Please avoid running ``setup.py`` directly.
+[1.917s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[1.917s]         other standards-based tools.
+[1.917s] 
+[1.917s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.917s]         ********************************************************************************
+[1.917s] 
+[1.917s] !!
+[1.918s]   self.initialize_options()
+[1.924s] running install_lib
+[1.947s] creating /home/intern/ros2Humble_ws/install/py_launch_aprilsys/lib/python3.10/site-packages/py_launch_aprilsys
+[1.948s] copying /home/intern/ros2Humble_ws/build/py_launch_aprilsys/build/lib/py_launch_aprilsys/__init__.py -> /home/intern/ros2Humble_ws/install/py_launch_aprilsys/lib/python3.10/site-packages/py_launch_aprilsys
+[1.948s] byte-compiling /home/intern/ros2Humble_ws/install/py_launch_aprilsys/lib/python3.10/site-packages/py_launch_aprilsys/__init__.py to __init__.cpython-310.pyc
+[1.949s] running install_data
+[1.974s] creating /home/intern/ros2Humble_ws/install/py_launch_aprilsys/share/ament_index
+[1.975s] creating /home/intern/ros2Humble_ws/install/py_launch_aprilsys/share/ament_index/resource_index
+[1.975s] creating /home/intern/ros2Humble_ws/install/py_launch_aprilsys/share/ament_index/resource_index/packages
+[1.976s] copying resource/py_launch_aprilsys -> /home/intern/ros2Humble_ws/install/py_launch_aprilsys/share/ament_index/resource_index/packages
+[1.976s] copying package.xml -> /home/intern/ros2Humble_ws/install/py_launch_aprilsys/share/py_launch_aprilsys
+[1.978s] creating /home/intern/ros2Humble_ws/install/py_launch_aprilsys/share/py_launch_aprilsys/launch
+[1.979s] copying launch/april_test.launch.py -> /home/intern/ros2Humble_ws/install/py_launch_aprilsys/share/py_launch_aprilsys/launch
+[1.979s] running install_egg_info
+[1.995s] Copying ../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info to /home/intern/ros2Humble_ws/install/py_launch_aprilsys/lib/python3.10/site-packages/py_launch_aprilsys-0.0.0-py3.10.egg-info
+[1.996s] running install_scripts
+[2.204s] writing list of installed files to '/home/intern/ros2Humble_ws/build/py_launch_aprilsys/install.log'
+[2.248s] Invoked command in '/home/intern/ros2Humble_ws/src/py_launch_aprilsys' returned '0': PYTHONPATH=/home/intern/ros2Humble_ws/build/py_launch_aprilsys/prefix_override:/home/intern/ros2Humble_ws/install/py_launch_aprilsys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_aprilsys build --build-base /home/intern/ros2Humble_ws/build/py_launch_aprilsys/build install --record /home/intern/ros2Humble_ws/build/py_launch_aprilsys/install.log --single-version-externally-managed
