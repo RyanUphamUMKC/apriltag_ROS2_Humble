@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgxf_rectify_utils.a CMakeFiles/gxf_rectify_utils.dir/extensions/rectify/utils/camera_utils.cpp.o CMakeFiles/gxf_rectify_utils.dir/extensions/rectify/utils/utils.cpp.o
+/usr/bin/ranlib libgxf_rectify_utils.a

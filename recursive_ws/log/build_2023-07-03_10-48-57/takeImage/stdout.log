@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/takeImage/takeImage.egg-info
+writing ../../build/takeImage/takeImage.egg-info/PKG-INFO
+writing dependency_links to ../../build/takeImage/takeImage.egg-info/dependency_links.txt
+writing entry points to ../../build/takeImage/takeImage.egg-info/entry_points.txt
+writing requirements to ../../build/takeImage/takeImage.egg-info/requires.txt
+writing top-level names to ../../build/takeImage/takeImage.egg-info/top_level.txt
+writing manifest file '../../build/takeImage/takeImage.egg-info/SOURCES.txt'
+reading manifest file '../../build/takeImage/takeImage.egg-info/SOURCES.txt'
+writing manifest file '../../build/takeImage/takeImage.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/intern/recursive_ws/build/takeImage/build
+creating /home/intern/recursive_ws/build/takeImage/build/lib
+creating /home/intern/recursive_ws/build/takeImage/build/lib/takeImage
+copying takeImage/takeImage.py -> /home/intern/recursive_ws/build/takeImage/build/lib/takeImage
+copying takeImage/__init__.py -> /home/intern/recursive_ws/build/takeImage/build/lib/takeImage
+running install
+running install_lib
+creating /home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages/takeImage
+copying /home/intern/recursive_ws/build/takeImage/build/lib/takeImage/takeImage.py -> /home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages/takeImage
+copying /home/intern/recursive_ws/build/takeImage/build/lib/takeImage/__init__.py -> /home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages/takeImage
+byte-compiling /home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages/takeImage/takeImage.py to takeImage.cpython-310.pyc
+byte-compiling /home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages/takeImage/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/intern/recursive_ws/install/takeImage/share/ament_index
+creating /home/intern/recursive_ws/install/takeImage/share/ament_index/resource_index
+creating /home/intern/recursive_ws/install/takeImage/share/ament_index/resource_index/packages
+copying resource/takeImage -> /home/intern/recursive_ws/install/takeImage/share/ament_index/resource_index/packages
+copying package.xml -> /home/intern/recursive_ws/install/takeImage/share/takeImage
+running install_egg_info
+Copying ../../build/takeImage/takeImage.egg-info to /home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages/takeImage-0.0.0-py3.10.egg-info
+running install_scripts
+Installing takeImage script to /home/intern/recursive_ws/install/takeImage/lib/takeImage
+writing list of installed files to '/home/intern/recursive_ws/build/takeImage/install.log'

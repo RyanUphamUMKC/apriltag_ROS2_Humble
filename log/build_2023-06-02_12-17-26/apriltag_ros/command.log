@@ -1,4 +1,0 @@
-Invoking command in '/home/intern/ros2Humble_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /home/intern/.local/bin/cmake --build /home/intern/ros2Humble_ws/build/apriltag_ros -- -j4 -l4
-Invoked command in '/home/intern/ros2Humble_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/intern/.local/bin/cmake --build /home/intern/ros2Humble_ws/build/apriltag_ros -- -j4 -l4
-Invoking command in '/home/intern/ros2Humble_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /home/intern/.local/bin/cmake --install /home/intern/ros2Humble_ws/build/apriltag_ros
-Invoked command in '/home/intern/ros2Humble_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/intern/.local/bin/cmake --install /home/intern/ros2Humble_ws/build/apriltag_ros

@@ -1,0 +1,39 @@
+[1.862s] Invoking command in '/workspaces/isaac_ros-dev/src/py_launch_aprilsys': PYTHONPATH=/workspaces/isaac_ros-dev/build/py_launch_aprilsys/prefix_override:/workspaces/isaac_ros-dev/install/py_launch_aprilsys/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_aprilsys build --build-base /workspaces/isaac_ros-dev/build/py_launch_aprilsys/build install --record /workspaces/isaac_ros-dev/build/py_launch_aprilsys/install.log --single-version-externally-managed
+[2.327s] running egg_info
+[2.328s] creating ../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info
+[2.345s] writing ../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info/PKG-INFO
+[2.345s] writing dependency_links to ../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info/dependency_links.txt
+[2.346s] writing entry points to ../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info/entry_points.txt
+[2.346s] writing requirements to ../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info/requires.txt
+[2.346s] writing top-level names to ../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info/top_level.txt
+[2.347s] writing manifest file '../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info/SOURCES.txt'
+[2.383s] reading manifest file '../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info/SOURCES.txt'
+[2.385s] writing manifest file '../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info/SOURCES.txt'
+[2.385s] running build
+[2.385s] running build_py
+[2.386s] creating /workspaces/isaac_ros-dev/build/py_launch_aprilsys/build
+[2.386s] creating /workspaces/isaac_ros-dev/build/py_launch_aprilsys/build/lib
+[2.386s] creating /workspaces/isaac_ros-dev/build/py_launch_aprilsys/build/lib/py_launch_aprilsys
+[2.386s] copying py_launch_aprilsys/__init__.py -> /workspaces/isaac_ros-dev/build/py_launch_aprilsys/build/lib/py_launch_aprilsys
+[2.387s] copying py_launch_aprilsys/SaveCSV.py -> /workspaces/isaac_ros-dev/build/py_launch_aprilsys/build/lib/py_launch_aprilsys
+[2.387s] running install
+[2.396s] running install_lib
+[2.413s] creating /workspaces/isaac_ros-dev/install/py_launch_aprilsys/lib/python3.8/site-packages/py_launch_aprilsys
+[2.413s] copying /workspaces/isaac_ros-dev/build/py_launch_aprilsys/build/lib/py_launch_aprilsys/__init__.py -> /workspaces/isaac_ros-dev/install/py_launch_aprilsys/lib/python3.8/site-packages/py_launch_aprilsys
+[2.414s] copying /workspaces/isaac_ros-dev/build/py_launch_aprilsys/build/lib/py_launch_aprilsys/SaveCSV.py -> /workspaces/isaac_ros-dev/install/py_launch_aprilsys/lib/python3.8/site-packages/py_launch_aprilsys
+[2.415s] byte-compiling /workspaces/isaac_ros-dev/install/py_launch_aprilsys/lib/python3.8/site-packages/py_launch_aprilsys/__init__.py to __init__.cpython-38.pyc
+[2.415s] byte-compiling /workspaces/isaac_ros-dev/install/py_launch_aprilsys/lib/python3.8/site-packages/py_launch_aprilsys/SaveCSV.py to SaveCSV.cpython-38.pyc
+[2.417s] running install_data
+[2.433s] creating /workspaces/isaac_ros-dev/install/py_launch_aprilsys/share/ament_index
+[2.433s] creating /workspaces/isaac_ros-dev/install/py_launch_aprilsys/share/ament_index/resource_index
+[2.433s] creating /workspaces/isaac_ros-dev/install/py_launch_aprilsys/share/ament_index/resource_index/packages
+[2.433s] copying resource/py_launch_aprilsys -> /workspaces/isaac_ros-dev/install/py_launch_aprilsys/share/ament_index/resource_index/packages
+[2.434s] copying package.xml -> /workspaces/isaac_ros-dev/install/py_launch_aprilsys/share/py_launch_aprilsys
+[2.434s] creating /workspaces/isaac_ros-dev/install/py_launch_aprilsys/share/py_launch_aprilsys/launch
+[2.434s] copying launch/april.launch.py -> /workspaces/isaac_ros-dev/install/py_launch_aprilsys/share/py_launch_aprilsys/launch
+[2.435s] running install_egg_info
+[2.452s] Copying ../../build/py_launch_aprilsys/py_launch_aprilsys.egg-info to /workspaces/isaac_ros-dev/install/py_launch_aprilsys/lib/python3.8/site-packages/py_launch_aprilsys-0.0.0-py3.8.egg-info
+[2.454s] running install_scripts
+[2.534s] Installing saveCSV script to /workspaces/isaac_ros-dev/install/py_launch_aprilsys/lib/py_launch_aprilsys
+[2.535s] writing list of installed files to '/workspaces/isaac_ros-dev/build/py_launch_aprilsys/install.log'
+[2.657s] Invoked command in '/workspaces/isaac_ros-dev/src/py_launch_aprilsys' returned '0': PYTHONPATH=/workspaces/isaac_ros-dev/build/py_launch_aprilsys/prefix_override:/workspaces/isaac_ros-dev/install/py_launch_aprilsys/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_aprilsys build --build-base /workspaces/isaac_ros-dev/build/py_launch_aprilsys/build install --record /workspaces/isaac_ros-dev/build/py_launch_aprilsys/install.log --single-version-externally-managed

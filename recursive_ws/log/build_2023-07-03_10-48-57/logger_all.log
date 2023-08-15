@@ -1,0 +1,501 @@
+[0.317s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.317s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f958b0c8370>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f958b8bb550>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f958b8bb550>>)
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.351s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/intern/recursive_ws'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_ros' with type 'ros.ament_cmake' and name 'apriltag_ros'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_aprilsys) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_aprilsys) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_aprilsys) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_aprilsys) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_aprilsys) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_aprilsys) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_aprilsys) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_aprilsys) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_aprilsys) by extension 'ros'
+[0.369s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_launch_aprilsys' with type 'ros.ament_python' and name 'py_launch_aprilsys'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.373s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/takeImage) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/takeImage) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/takeImage) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/takeImage) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/takeImage) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/takeImage) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/takeImage) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/takeImage) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/takeImage) by extension 'ros'
+[0.376s] DEBUG:colcon.colcon_core.package_identification:Package 'src/takeImage' with type 'ros.ament_python' and name 'takeImage'
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.402s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/intern/recursive_ws/install/takeImage' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.402s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/intern/recursive_ws/install/realsense2_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.402s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/intern/recursive_ws/install/realsense2_camera' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.402s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/intern/recursive_ws/install/realsense2_camera_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.402s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/intern/recursive_ws/install/py_launch_aprilsys' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.403s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/intern/recursive_ws/install/apriltag_ros' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.403s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/intern/recursive_ws/install/realsense2_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.403s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/intern/recursive_ws/install/realsense2_camera' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.403s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/intern/recursive_ws/install/realsense2_camera_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.403s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/intern/recursive_ws/install/apriltag_ros' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.404s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/intern/recursive_ws/install
+[0.406s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.476s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/intern/recursive_ws/build/apriltag_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/intern/recursive_ws/install/apriltag_ros', 'merge_install': False, 'path': '/home/intern/recursive_ws/src/apriltag_ros', 'symlink_install': False, 'test_result_base': None}
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.477s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/intern/recursive_ws/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/intern/recursive_ws/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/home/intern/recursive_ws/src/realsense-ros/realsense2_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'takeImage' build argument 'cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'takeImage' build argument 'cmake_target' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'takeImage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'takeImage' build argument 'cmake_clean_cache' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'takeImage' build argument 'cmake_clean_first' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'takeImage' build argument 'cmake_force_configure' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'takeImage' build argument 'ament_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'takeImage' build argument 'catkin_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'takeImage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.478s] DEBUG:colcon.colcon_core.verb:Building package 'takeImage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/intern/recursive_ws/build/takeImage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/intern/recursive_ws/install/takeImage', 'merge_install': False, 'path': '/home/intern/recursive_ws/src/takeImage', 'symlink_install': False, 'test_result_base': None}
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'py_launch_aprilsys' build argument 'cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'py_launch_aprilsys' build argument 'cmake_target' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'py_launch_aprilsys' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'py_launch_aprilsys' build argument 'cmake_clean_cache' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'py_launch_aprilsys' build argument 'cmake_clean_first' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'py_launch_aprilsys' build argument 'cmake_force_configure' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'py_launch_aprilsys' build argument 'ament_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'py_launch_aprilsys' build argument 'catkin_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'py_launch_aprilsys' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.479s] DEBUG:colcon.colcon_core.verb:Building package 'py_launch_aprilsys' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/intern/recursive_ws/build/py_launch_aprilsys', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/intern/recursive_ws/install/py_launch_aprilsys', 'merge_install': False, 'path': '/home/intern/recursive_ws/src/py_launch_aprilsys', 'symlink_install': False, 'test_result_base': None}
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.480s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/intern/recursive_ws/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/intern/recursive_ws/install/realsense2_camera', 'merge_install': False, 'path': '/home/intern/recursive_ws/src/realsense-ros/realsense2_camera', 'symlink_install': False, 'test_result_base': None}
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.482s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/intern/recursive_ws/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/intern/recursive_ws/install/realsense2_description', 'merge_install': False, 'path': '/home/intern/recursive_ws/src/realsense-ros/realsense2_description', 'symlink_install': False, 'test_result_base': None}
+[0.482s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.485s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.486s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/intern/recursive_ws/src/realsense-ros/realsense2_camera_msgs' with build type 'ament_cmake'
+[0.486s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/intern/recursive_ws/src/realsense-ros/realsense2_camera_msgs'
+[0.490s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.491s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.495s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/intern/recursive_ws/src/apriltag_ros' with build type 'ament_cmake'
+[0.495s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/intern/recursive_ws/src/apriltag_ros'
+[0.496s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.496s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.501s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/intern/recursive_ws/src/takeImage' with build type 'ament_python'
+[0.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('takeImage', 'ament_prefix_path')
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/takeImage/share/takeImage/hook/ament_prefix_path.ps1'
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/takeImage/share/takeImage/hook/ament_prefix_path.dsv'
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/takeImage/share/takeImage/hook/ament_prefix_path.sh'
+[0.505s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.505s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/intern/recursive_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble /usr/local/bin/cmake /home/intern/recursive_ws/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/intern/recursive_ws/install/realsense2_camera_msgs
+[0.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/intern/recursive_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble /usr/local/bin/cmake /home/intern/recursive_ws/src/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/intern/recursive_ws/install/apriltag_ros
+[0.815s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/intern/recursive_ws/src/takeImage'
+[0.816s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.817s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/intern/recursive_ws/src/takeImage': PYTHONPATH=/home/intern/recursive_ws/build/takeImage/prefix_override:/home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/takeImage build --build-base /home/intern/recursive_ws/build/takeImage/build install --record /home/intern/recursive_ws/build/takeImage/install.log --single-version-externally-managed
+[1.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/intern/recursive_ws/src/takeImage' returned '0': PYTHONPATH=/home/intern/recursive_ws/build/takeImage/prefix_override:/home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/takeImage build --build-base /home/intern/recursive_ws/build/takeImage/build install --record /home/intern/recursive_ws/build/takeImage/install.log --single-version-externally-managed
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/takeImage' for CMake module files
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/takeImage' for CMake config files
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/takeImage/lib'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/takeImage/bin'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/takeImage/lib/pkgconfig/takeImage.pc'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages'
+[1.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('takeImage', 'pythonpath')
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/takeImage/share/takeImage/hook/pythonpath.ps1'
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/takeImage/share/takeImage/hook/pythonpath.dsv'
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/takeImage/share/takeImage/hook/pythonpath.sh'
+[1.550s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/takeImage/bin'
+[1.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(takeImage)
+[1.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/takeImage/share/takeImage/package.ps1'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/intern/recursive_ws/install/takeImage/share/takeImage/package.dsv'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/takeImage/share/takeImage/package.sh'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/takeImage/share/takeImage/package.bash'
+[1.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/takeImage/share/takeImage/package.zsh'
+[1.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/intern/recursive_ws/install/takeImage/share/colcon-core/packages/takeImage)
+[2.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/intern/recursive_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble /usr/local/bin/cmake /home/intern/recursive_ws/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/intern/recursive_ws/install/realsense2_camera_msgs
+[2.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/intern/recursive_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble /usr/local/bin/cmake --build /home/intern/recursive_ws/build/realsense2_camera_msgs -- -j4 -l4
+[3.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/intern/recursive_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble /usr/local/bin/cmake /home/intern/recursive_ws/src/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/intern/recursive_ws/install/apriltag_ros
+[3.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/intern/recursive_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble /usr/local/bin/cmake --build /home/intern/recursive_ws/build/apriltag_ros -- -j4 -l4
+[9.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/intern/recursive_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble /usr/local/bin/cmake --build /home/intern/recursive_ws/build/realsense2_camera_msgs -- -j4 -l4
+[9.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/intern/recursive_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble /usr/local/bin/cmake --install /home/intern/recursive_ws/build/realsense2_camera_msgs
+[9.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[9.514s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera_msgs' for CMake module files
+[9.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/intern/recursive_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble /usr/local/bin/cmake --install /home/intern/recursive_ws/build/realsense2_camera_msgs
+[9.515s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera_msgs' for CMake config files
+[9.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[9.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[9.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[9.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[9.518s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera_msgs/lib'
+[9.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[9.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[9.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[9.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[9.521s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera_msgs/bin'
+[9.521s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[9.521s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[9.521s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera_msgs/bin'
+[9.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[9.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[9.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[9.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[9.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[9.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/intern/recursive_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[9.738s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[9.741s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera_msgs' for CMake module files
+[9.741s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera_msgs' for CMake config files
+[9.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[9.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[9.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[9.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[9.745s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera_msgs/lib'
+[9.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[9.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[9.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[9.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[9.747s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera_msgs/bin'
+[9.747s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[9.747s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[9.748s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera_msgs/bin'
+[9.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[9.750s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[9.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[9.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[9.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[9.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/intern/recursive_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[9.752s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/intern/recursive_ws/src/realsense-ros/realsense2_camera' with build type 'ament_cmake'
+[9.752s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/intern/recursive_ws/src/realsense-ros/realsense2_camera'
+[9.754s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.754s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.759s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/intern/recursive_ws/src/realsense-ros/realsense2_description' with build type 'ament_cmake'
+[9.759s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/intern/recursive_ws/src/realsense-ros/realsense2_description'
+[9.761s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.763s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/intern/recursive_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs:/home/intern/recursive_ws/install/realsense2_description:/home/intern/recursive_ws/install/realsense2_camera:/home/intern/recursive_ws/install/apriltag_ros:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble LD_LIBRARY_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs/lib:/home/intern/recursive_ws/install/realsense2_camera/lib:/home/intern/recursive_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake /home/intern/recursive_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/intern/recursive_ws/install/realsense2_camera
+[9.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/intern/recursive_ws/build/realsense2_description': CMAKE_PREFIX_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs:/home/intern/recursive_ws/install/realsense2_description:/home/intern/recursive_ws/install/realsense2_camera:/home/intern/recursive_ws/install/apriltag_ros:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble LD_LIBRARY_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs/lib:/home/intern/recursive_ws/install/realsense2_camera/lib:/home/intern/recursive_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake /home/intern/recursive_ws/src/realsense-ros/realsense2_description -DCMAKE_INSTALL_PREFIX=/home/intern/recursive_ws/install/realsense2_description
+[10.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/intern/recursive_ws/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs:/home/intern/recursive_ws/install/realsense2_description:/home/intern/recursive_ws/install/realsense2_camera:/home/intern/recursive_ws/install/apriltag_ros:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble LD_LIBRARY_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs/lib:/home/intern/recursive_ws/install/realsense2_camera/lib:/home/intern/recursive_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake /home/intern/recursive_ws/src/realsense-ros/realsense2_description -DCMAKE_INSTALL_PREFIX=/home/intern/recursive_ws/install/realsense2_description
+[10.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/intern/recursive_ws/build/realsense2_description': CMAKE_PREFIX_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs:/home/intern/recursive_ws/install/realsense2_description:/home/intern/recursive_ws/install/realsense2_camera:/home/intern/recursive_ws/install/apriltag_ros:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble LD_LIBRARY_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs/lib:/home/intern/recursive_ws/install/realsense2_camera/lib:/home/intern/recursive_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/intern/recursive_ws/build/realsense2_description -- -j4 -l4
+[10.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/intern/recursive_ws/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs:/home/intern/recursive_ws/install/realsense2_description:/home/intern/recursive_ws/install/realsense2_camera:/home/intern/recursive_ws/install/apriltag_ros:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble LD_LIBRARY_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs/lib:/home/intern/recursive_ws/install/realsense2_camera/lib:/home/intern/recursive_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/intern/recursive_ws/build/realsense2_description -- -j4 -l4
+[10.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/intern/recursive_ws/build/realsense2_description': CMAKE_PREFIX_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs:/home/intern/recursive_ws/install/realsense2_description:/home/intern/recursive_ws/install/realsense2_camera:/home/intern/recursive_ws/install/apriltag_ros:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble LD_LIBRARY_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs/lib:/home/intern/recursive_ws/install/realsense2_camera/lib:/home/intern/recursive_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/intern/recursive_ws/build/realsense2_description
+[11.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[11.071s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_description' for CMake module files
+[11.071s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_description' for CMake config files
+[11.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[11.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[11.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[11.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[11.074s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_description/bin'
+[11.074s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[11.074s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_description/lib/python3.10/site-packages'
+[11.075s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_description/bin'
+[11.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[11.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[11.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[11.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/intern/recursive_ws/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs:/home/intern/recursive_ws/install/realsense2_description:/home/intern/recursive_ws/install/realsense2_camera:/home/intern/recursive_ws/install/apriltag_ros:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble LD_LIBRARY_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs/lib:/home/intern/recursive_ws/install/realsense2_camera/lib:/home/intern/recursive_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/intern/recursive_ws/build/realsense2_description
+[11.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[11.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[11.079s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/intern/recursive_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[11.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[11.142s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_description' for CMake module files
+[11.142s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_description' for CMake config files
+[11.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[11.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[11.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[11.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[11.192s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_description/bin'
+[11.192s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[11.192s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_description/lib/python3.10/site-packages'
+[11.192s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_description/bin'
+[11.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[11.195s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[11.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[11.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[11.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[11.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/intern/recursive_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[12.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/intern/recursive_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs:/home/intern/recursive_ws/install/realsense2_description:/home/intern/recursive_ws/install/realsense2_camera:/home/intern/recursive_ws/install/apriltag_ros:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble LD_LIBRARY_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs/lib:/home/intern/recursive_ws/install/realsense2_camera/lib:/home/intern/recursive_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake /home/intern/recursive_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/intern/recursive_ws/install/realsense2_camera
+[12.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/intern/recursive_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs:/home/intern/recursive_ws/install/realsense2_description:/home/intern/recursive_ws/install/realsense2_camera:/home/intern/recursive_ws/install/apriltag_ros:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble LD_LIBRARY_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs/lib:/home/intern/recursive_ws/install/realsense2_camera/lib:/home/intern/recursive_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/intern/recursive_ws/build/realsense2_camera -- -j4 -l4
+[19.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/intern/recursive_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble /usr/local/bin/cmake --build /home/intern/recursive_ws/build/apriltag_ros -- -j4 -l4
+[20.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/intern/recursive_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble /usr/local/bin/cmake --install /home/intern/recursive_ws/build/apriltag_ros
+[20.160s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros)
+[20.162s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/apriltag_ros' for CMake module files
+[20.162s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/apriltag_ros' for CMake config files
+[20.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'cmake_prefix_path')
+[20.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.ps1'
+[20.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/intern/recursive_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble /usr/local/bin/cmake --install /home/intern/recursive_ws/build/apriltag_ros
+[20.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.dsv'
+[20.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.sh'
+[20.167s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/apriltag_ros/lib'
+[20.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'ld_library_path_lib')
+[20.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.ps1'
+[20.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.dsv'
+[20.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.sh'
+[20.170s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/apriltag_ros/bin'
+[20.170s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc'
+[20.170s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/apriltag_ros/lib/python3.10/site-packages'
+[20.171s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/apriltag_ros/bin'
+[20.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/package.ps1'
+[20.173s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/package.dsv'
+[20.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/package.sh'
+[20.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/package.bash'
+[20.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/package.zsh'
+[20.175s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/intern/recursive_ws/install/apriltag_ros/share/colcon-core/packages/apriltag_ros)
+[20.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros)
+[20.546s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/apriltag_ros' for CMake module files
+[20.547s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/apriltag_ros' for CMake config files
+[20.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'cmake_prefix_path')
+[20.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.ps1'
+[20.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.dsv'
+[20.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.sh'
+[20.551s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/apriltag_ros/lib'
+[20.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'ld_library_path_lib')
+[20.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.ps1'
+[20.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.dsv'
+[20.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.sh'
+[20.560s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/apriltag_ros/bin'
+[20.560s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc'
+[20.560s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/apriltag_ros/lib/python3.10/site-packages'
+[20.561s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/apriltag_ros/bin'
+[20.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/package.ps1'
+[20.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/package.dsv'
+[20.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/package.sh'
+[20.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/package.bash'
+[20.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/apriltag_ros/share/apriltag_ros/package.zsh'
+[20.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/intern/recursive_ws/install/apriltag_ros/share/colcon-core/packages/apriltag_ros)
+[20.571s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/intern/recursive_ws/src/py_launch_aprilsys' with build type 'ament_python'
+[20.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_launch_aprilsys', 'ament_prefix_path')
+[20.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/py_launch_aprilsys/share/py_launch_aprilsys/hook/ament_prefix_path.ps1'
+[20.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/py_launch_aprilsys/share/py_launch_aprilsys/hook/ament_prefix_path.dsv'
+[20.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/py_launch_aprilsys/share/py_launch_aprilsys/hook/ament_prefix_path.sh'
+[20.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.068s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/intern/recursive_ws/src/py_launch_aprilsys'
+[21.070s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.070s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/intern/recursive_ws/src/py_launch_aprilsys': CMAKE_PREFIX_PATH=/home/intern/recursive_ws/install/apriltag_ros:/home/intern/recursive_ws/install/realsense2_description:/home/intern/recursive_ws/install/realsense2_camera:/home/intern/recursive_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/intern/recursive_ws/install/apriltag_ros/lib:/home/intern/recursive_ws/install/realsense2_camera/lib:/home/intern/recursive_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/intern/recursive_ws/build/py_launch_aprilsys/prefix_override:/home/intern/recursive_ws/install/py_launch_aprilsys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_aprilsys build --build-base /home/intern/recursive_ws/build/py_launch_aprilsys/build install --record /home/intern/recursive_ws/build/py_launch_aprilsys/install.log --single-version-externally-managed
+[22.566s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/py_launch_aprilsys' for CMake module files
+[22.567s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/py_launch_aprilsys' for CMake config files
+[22.568s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/py_launch_aprilsys/lib'
+[22.568s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/py_launch_aprilsys/bin'
+[22.568s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/py_launch_aprilsys/lib/pkgconfig/py_launch_aprilsys.pc'
+[22.568s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/py_launch_aprilsys/lib/python3.10/site-packages'
+[22.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_launch_aprilsys', 'pythonpath')
+[22.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/py_launch_aprilsys/share/py_launch_aprilsys/hook/pythonpath.ps1'
+[22.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/py_launch_aprilsys/share/py_launch_aprilsys/hook/pythonpath.dsv'
+[22.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/intern/recursive_ws/src/py_launch_aprilsys' returned '0': CMAKE_PREFIX_PATH=/home/intern/recursive_ws/install/apriltag_ros:/home/intern/recursive_ws/install/realsense2_description:/home/intern/recursive_ws/install/realsense2_camera:/home/intern/recursive_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/intern/recursive_ws/install/apriltag_ros/lib:/home/intern/recursive_ws/install/realsense2_camera/lib:/home/intern/recursive_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/intern/recursive_ws/build/py_launch_aprilsys/prefix_override:/home/intern/recursive_ws/install/py_launch_aprilsys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_aprilsys build --build-base /home/intern/recursive_ws/build/py_launch_aprilsys/build install --record /home/intern/recursive_ws/build/py_launch_aprilsys/install.log --single-version-externally-managed
+[22.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/py_launch_aprilsys/share/py_launch_aprilsys/hook/pythonpath.sh'
+[22.572s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/py_launch_aprilsys/bin'
+[22.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_launch_aprilsys)
+[22.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/py_launch_aprilsys/share/py_launch_aprilsys/package.ps1'
+[22.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/intern/recursive_ws/install/py_launch_aprilsys/share/py_launch_aprilsys/package.dsv'
+[22.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/py_launch_aprilsys/share/py_launch_aprilsys/package.sh'
+[22.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/py_launch_aprilsys/share/py_launch_aprilsys/package.bash'
+[22.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/py_launch_aprilsys/share/py_launch_aprilsys/package.zsh'
+[22.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/intern/recursive_ws/install/py_launch_aprilsys/share/colcon-core/packages/py_launch_aprilsys)
+[48.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/intern/recursive_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs:/home/intern/recursive_ws/install/realsense2_description:/home/intern/recursive_ws/install/realsense2_camera:/home/intern/recursive_ws/install/apriltag_ros:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble LD_LIBRARY_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs/lib:/home/intern/recursive_ws/install/realsense2_camera/lib:/home/intern/recursive_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/intern/recursive_ws/build/realsense2_camera -- -j4 -l4
+[48.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/intern/recursive_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs:/home/intern/recursive_ws/install/realsense2_description:/home/intern/recursive_ws/install/realsense2_camera:/home/intern/recursive_ws/install/apriltag_ros:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble LD_LIBRARY_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs/lib:/home/intern/recursive_ws/install/realsense2_camera/lib:/home/intern/recursive_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/intern/recursive_ws/build/realsense2_camera
+[48.268s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[48.271s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera' for CMake module files
+[48.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/intern/recursive_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs:/home/intern/recursive_ws/install/realsense2_description:/home/intern/recursive_ws/install/realsense2_camera:/home/intern/recursive_ws/install/apriltag_ros:/home/intern/recursive_ws/install/takeImage:/home/intern/recursive_ws/install/py_launch_aprilsys:/opt/ros/humble LD_LIBRARY_PATH=/home/intern/recursive_ws/install/realsense2_camera_msgs/lib:/home/intern/recursive_ws/install/realsense2_camera/lib:/home/intern/recursive_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/intern/recursive_ws/build/realsense2_camera
+[48.272s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera' for CMake config files
+[48.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[48.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[48.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[48.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[48.274s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera/lib'
+[48.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[48.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[48.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[48.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[48.277s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera/bin'
+[48.277s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[48.277s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[48.277s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera/bin'
+[48.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[48.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[48.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[48.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[48.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[48.281s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/intern/recursive_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[48.338s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[48.340s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera' for CMake module files
+[48.340s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera' for CMake config files
+[48.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[48.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[48.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[48.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[48.343s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera/lib'
+[48.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[48.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[48.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[48.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[48.345s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera/bin'
+[48.346s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[48.346s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[48.346s] Level 1:colcon.colcon_core.environment:checking '/home/intern/recursive_ws/install/realsense2_camera/bin'
+[48.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[48.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[48.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[48.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[48.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/intern/recursive_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[48.350s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/intern/recursive_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[48.350s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[48.350s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[48.350s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[48.350s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[48.357s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[48.357s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[48.357s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[48.369s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[48.370s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/intern/recursive_ws/install/local_setup.ps1'
+[48.371s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/intern/recursive_ws/install/_local_setup_util_ps1.py'
+[48.372s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/intern/recursive_ws/install/setup.ps1'
+[48.374s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/intern/recursive_ws/install/local_setup.sh'
+[48.374s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/intern/recursive_ws/install/_local_setup_util_sh.py'
+[48.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/intern/recursive_ws/install/setup.sh'
+[48.376s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/intern/recursive_ws/install/local_setup.bash'
+[48.377s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/intern/recursive_ws/install/setup.bash'
+[48.379s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/intern/recursive_ws/install/local_setup.zsh'
+[48.379s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/intern/recursive_ws/install/setup.zsh'

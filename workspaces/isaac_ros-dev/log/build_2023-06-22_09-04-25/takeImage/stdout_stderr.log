@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/takeImage/takeImage.egg-info
+writing ../../build/takeImage/takeImage.egg-info/PKG-INFO
+writing dependency_links to ../../build/takeImage/takeImage.egg-info/dependency_links.txt
+writing entry points to ../../build/takeImage/takeImage.egg-info/entry_points.txt
+writing requirements to ../../build/takeImage/takeImage.egg-info/requires.txt
+writing top-level names to ../../build/takeImage/takeImage.egg-info/top_level.txt
+writing manifest file '../../build/takeImage/takeImage.egg-info/SOURCES.txt'
+reading manifest file '../../build/takeImage/takeImage.egg-info/SOURCES.txt'
+writing manifest file '../../build/takeImage/takeImage.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/isaac_ros-dev/build/takeImage/build
+creating /workspaces/isaac_ros-dev/build/takeImage/build/lib
+creating /workspaces/isaac_ros-dev/build/takeImage/build/lib/takeImage
+copying takeImage/takeImage.py -> /workspaces/isaac_ros-dev/build/takeImage/build/lib/takeImage
+copying takeImage/__init__.py -> /workspaces/isaac_ros-dev/build/takeImage/build/lib/takeImage
+running install
+running install_lib
+creating /workspaces/isaac_ros-dev/install/takeImage/lib/python3.8/site-packages/takeImage
+copying /workspaces/isaac_ros-dev/build/takeImage/build/lib/takeImage/takeImage.py -> /workspaces/isaac_ros-dev/install/takeImage/lib/python3.8/site-packages/takeImage
+copying /workspaces/isaac_ros-dev/build/takeImage/build/lib/takeImage/__init__.py -> /workspaces/isaac_ros-dev/install/takeImage/lib/python3.8/site-packages/takeImage
+byte-compiling /workspaces/isaac_ros-dev/install/takeImage/lib/python3.8/site-packages/takeImage/takeImage.py to takeImage.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/takeImage/lib/python3.8/site-packages/takeImage/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /workspaces/isaac_ros-dev/install/takeImage/share/ament_index
+creating /workspaces/isaac_ros-dev/install/takeImage/share/ament_index/resource_index
+creating /workspaces/isaac_ros-dev/install/takeImage/share/ament_index/resource_index/packages
+copying resource/takeImage -> /workspaces/isaac_ros-dev/install/takeImage/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/isaac_ros-dev/install/takeImage/share/takeImage
+running install_egg_info
+Copying ../../build/takeImage/takeImage.egg-info to /workspaces/isaac_ros-dev/install/takeImage/lib/python3.8/site-packages/takeImage-0.0.0-py3.8.egg-info
+running install_scripts
+Installing takeImage script to /workspaces/isaac_ros-dev/install/takeImage/lib/takeImage
+writing list of installed files to '/workspaces/isaac_ros-dev/build/takeImage/install.log'

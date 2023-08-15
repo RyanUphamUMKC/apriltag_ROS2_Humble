@@ -1,0 +1,39 @@
+[0.704s] Invoking command in '/home/intern/recursive_ws/src/takeImage': PYTHONPATH=/home/intern/recursive_ws/build/takeImage/prefix_override:/home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/takeImage build --build-base /home/intern/recursive_ws/build/takeImage/build install --record /home/intern/recursive_ws/build/takeImage/install.log --single-version-externally-managed
+[0.975s] running egg_info
+[0.976s] creating ../../build/takeImage/takeImage.egg-info
+[0.976s] writing ../../build/takeImage/takeImage.egg-info/PKG-INFO
+[0.976s] writing dependency_links to ../../build/takeImage/takeImage.egg-info/dependency_links.txt
+[0.976s] writing entry points to ../../build/takeImage/takeImage.egg-info/entry_points.txt
+[0.976s] writing requirements to ../../build/takeImage/takeImage.egg-info/requires.txt
+[0.976s] writing top-level names to ../../build/takeImage/takeImage.egg-info/top_level.txt
+[0.977s] writing manifest file '../../build/takeImage/takeImage.egg-info/SOURCES.txt'
+[0.978s] reading manifest file '../../build/takeImage/takeImage.egg-info/SOURCES.txt'
+[0.979s] writing manifest file '../../build/takeImage/takeImage.egg-info/SOURCES.txt'
+[0.979s] running build
+[0.979s] running build_py
+[0.979s] creating /home/intern/recursive_ws/build/takeImage/build
+[0.980s] creating /home/intern/recursive_ws/build/takeImage/build/lib
+[0.980s] creating /home/intern/recursive_ws/build/takeImage/build/lib/takeImage
+[0.980s] copying takeImage/takeImage.py -> /home/intern/recursive_ws/build/takeImage/build/lib/takeImage
+[0.980s] copying takeImage/__init__.py -> /home/intern/recursive_ws/build/takeImage/build/lib/takeImage
+[0.980s] running install
+[0.980s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.980s]   warnings.warn(
+[0.980s] running install_lib
+[0.981s] creating /home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages/takeImage
+[0.981s] copying /home/intern/recursive_ws/build/takeImage/build/lib/takeImage/takeImage.py -> /home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages/takeImage
+[0.981s] copying /home/intern/recursive_ws/build/takeImage/build/lib/takeImage/__init__.py -> /home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages/takeImage
+[0.982s] byte-compiling /home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages/takeImage/takeImage.py to takeImage.cpython-310.pyc
+[0.982s] byte-compiling /home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages/takeImage/__init__.py to __init__.cpython-310.pyc
+[0.982s] running install_data
+[0.983s] creating /home/intern/recursive_ws/install/takeImage/share/ament_index
+[0.983s] creating /home/intern/recursive_ws/install/takeImage/share/ament_index/resource_index
+[0.983s] creating /home/intern/recursive_ws/install/takeImage/share/ament_index/resource_index/packages
+[0.984s] copying resource/takeImage -> /home/intern/recursive_ws/install/takeImage/share/ament_index/resource_index/packages
+[0.984s] copying package.xml -> /home/intern/recursive_ws/install/takeImage/share/takeImage
+[0.984s] running install_egg_info
+[0.985s] Copying ../../build/takeImage/takeImage.egg-info to /home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages/takeImage-0.0.0-py3.10.egg-info
+[0.986s] running install_scripts
+[1.009s] Installing takeImage script to /home/intern/recursive_ws/install/takeImage/lib/takeImage
+[1.009s] writing list of installed files to '/home/intern/recursive_ws/build/takeImage/install.log'
+[1.038s] Invoked command in '/home/intern/recursive_ws/src/takeImage' returned '0': PYTHONPATH=/home/intern/recursive_ws/build/takeImage/prefix_override:/home/intern/recursive_ws/install/takeImage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/takeImage build --build-base /home/intern/recursive_ws/build/takeImage/build install --record /home/intern/recursive_ws/build/takeImage/install.log --single-version-externally-managed

@@ -1,0 +1,2 @@
+[console_scripts]
+takeImage = takeImage.takeImage:main

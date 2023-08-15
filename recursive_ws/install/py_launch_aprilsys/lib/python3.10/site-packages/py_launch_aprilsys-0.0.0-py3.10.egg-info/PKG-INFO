@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: py-launch-aprilsys
+Version: 0.0.0
+Summary: package to integrate apriltag_ros and realsense-ros and save pose data to csv file
+Home-page: UNKNOWN
+Maintainer: intern
+Maintainer-email: rjukdn@umsystem.edu
+License: TODO: License declaration
+Platform: UNKNOWN
+
+UNKNOWN
+

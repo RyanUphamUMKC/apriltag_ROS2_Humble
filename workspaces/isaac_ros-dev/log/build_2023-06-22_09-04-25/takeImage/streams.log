@@ -1,0 +1,37 @@
+[1.282s] Invoking command in '/workspaces/isaac_ros-dev/src/takeImage': PYTHONPATH=/workspaces/isaac_ros-dev/build/takeImage/prefix_override:/workspaces/isaac_ros-dev/install/takeImage/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/takeImage build --build-base /workspaces/isaac_ros-dev/build/takeImage/build install --record /workspaces/isaac_ros-dev/build/takeImage/install.log --single-version-externally-managed
+[1.782s] running egg_info
+[1.783s] creating ../../build/takeImage/takeImage.egg-info
+[1.799s] writing ../../build/takeImage/takeImage.egg-info/PKG-INFO
+[1.801s] writing dependency_links to ../../build/takeImage/takeImage.egg-info/dependency_links.txt
+[1.801s] writing entry points to ../../build/takeImage/takeImage.egg-info/entry_points.txt
+[1.802s] writing requirements to ../../build/takeImage/takeImage.egg-info/requires.txt
+[1.803s] writing top-level names to ../../build/takeImage/takeImage.egg-info/top_level.txt
+[1.803s] writing manifest file '../../build/takeImage/takeImage.egg-info/SOURCES.txt'
+[1.841s] reading manifest file '../../build/takeImage/takeImage.egg-info/SOURCES.txt'
+[1.843s] writing manifest file '../../build/takeImage/takeImage.egg-info/SOURCES.txt'
+[1.845s] running build
+[1.846s] running build_py
+[1.847s] creating /workspaces/isaac_ros-dev/build/takeImage/build
+[1.847s] creating /workspaces/isaac_ros-dev/build/takeImage/build/lib
+[1.848s] creating /workspaces/isaac_ros-dev/build/takeImage/build/lib/takeImage
+[1.848s] copying takeImage/takeImage.py -> /workspaces/isaac_ros-dev/build/takeImage/build/lib/takeImage
+[1.849s] copying takeImage/__init__.py -> /workspaces/isaac_ros-dev/build/takeImage/build/lib/takeImage
+[1.850s] running install
+[1.857s] running install_lib
+[1.874s] creating /workspaces/isaac_ros-dev/install/takeImage/lib/python3.8/site-packages/takeImage
+[1.874s] copying /workspaces/isaac_ros-dev/build/takeImage/build/lib/takeImage/takeImage.py -> /workspaces/isaac_ros-dev/install/takeImage/lib/python3.8/site-packages/takeImage
+[1.875s] copying /workspaces/isaac_ros-dev/build/takeImage/build/lib/takeImage/__init__.py -> /workspaces/isaac_ros-dev/install/takeImage/lib/python3.8/site-packages/takeImage
+[1.876s] byte-compiling /workspaces/isaac_ros-dev/install/takeImage/lib/python3.8/site-packages/takeImage/takeImage.py to takeImage.cpython-38.pyc
+[1.876s] byte-compiling /workspaces/isaac_ros-dev/install/takeImage/lib/python3.8/site-packages/takeImage/__init__.py to __init__.cpython-38.pyc
+[1.877s] running install_data
+[1.893s] creating /workspaces/isaac_ros-dev/install/takeImage/share/ament_index
+[1.893s] creating /workspaces/isaac_ros-dev/install/takeImage/share/ament_index/resource_index
+[1.893s] creating /workspaces/isaac_ros-dev/install/takeImage/share/ament_index/resource_index/packages
+[1.893s] copying resource/takeImage -> /workspaces/isaac_ros-dev/install/takeImage/share/ament_index/resource_index/packages
+[1.893s] copying package.xml -> /workspaces/isaac_ros-dev/install/takeImage/share/takeImage
+[1.893s] running install_egg_info
+[1.911s] Copying ../../build/takeImage/takeImage.egg-info to /workspaces/isaac_ros-dev/install/takeImage/lib/python3.8/site-packages/takeImage-0.0.0-py3.8.egg-info
+[1.912s] running install_scripts
+[1.995s] Installing takeImage script to /workspaces/isaac_ros-dev/install/takeImage/lib/takeImage
+[1.996s] writing list of installed files to '/workspaces/isaac_ros-dev/build/takeImage/install.log'
+[2.074s] Invoked command in '/workspaces/isaac_ros-dev/src/takeImage' returned '0': PYTHONPATH=/workspaces/isaac_ros-dev/build/takeImage/prefix_override:/workspaces/isaac_ros-dev/install/takeImage/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/takeImage build --build-base /workspaces/isaac_ros-dev/build/takeImage/build install --record /workspaces/isaac_ros-dev/build/takeImage/install.log --single-version-externally-managed
