@@ -1,4 +1,0 @@
-Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_common': /usr/local/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_common -- -j4 -l4
-Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_common' returned '0': /usr/local/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_common -- -j4 -l4
-Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_common': /usr/local/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_common
-Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_common' returned '0': /usr/local/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_common

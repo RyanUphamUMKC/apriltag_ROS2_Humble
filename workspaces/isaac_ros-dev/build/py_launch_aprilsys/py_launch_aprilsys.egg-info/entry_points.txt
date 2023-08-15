@@ -1,2 +1,0 @@
-[console_scripts]
-saveCSV = py_launch_aprilsys.SaveCSV:main

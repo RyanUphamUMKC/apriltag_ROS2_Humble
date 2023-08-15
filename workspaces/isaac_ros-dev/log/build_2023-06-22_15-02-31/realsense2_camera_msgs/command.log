@@ -1,4 +1,0 @@
-Invoking command in '/workspaces/isaac_ros-dev/build/realsense2_camera_msgs': /usr/local/bin/cmake --build /workspaces/isaac_ros-dev/build/realsense2_camera_msgs -- -j4 -l4
-Invoked command in '/workspaces/isaac_ros-dev/build/realsense2_camera_msgs' returned '0': /usr/local/bin/cmake --build /workspaces/isaac_ros-dev/build/realsense2_camera_msgs -- -j4 -l4
-Invoking command in '/workspaces/isaac_ros-dev/build/realsense2_camera_msgs': /usr/local/bin/cmake --install /workspaces/isaac_ros-dev/build/realsense2_camera_msgs
-Invoked command in '/workspaces/isaac_ros-dev/build/realsense2_camera_msgs' returned '0': /usr/local/bin/cmake --install /workspaces/isaac_ros-dev/build/realsense2_camera_msgs
